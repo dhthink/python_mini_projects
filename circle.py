@@ -28,16 +28,16 @@
 # print("Height", height)
 # print (f"Volume of bucket  is :  {volume_bucket(radius,height):.2f}")
 
-# painting a round building..square feet
-import math
-def area_round_building(radius, height):
-    return 2 * math.pi * radius * height
-diameter = float(input("What is the diameter of the circle in feet:"))
-height = round(float(input("Wht is the height of building in feet: ")),2)
-radius = diameter / 2
-print(f"Radius: {radius:.2f}")
-print(f"Height: {height:.2f}")
-print(f"Area of round building is : {area_round_building(radius,height):.2f} cubic feet")
+# # painting a round building..square feet
+# import math
+# def area_round_building(radius, height):
+#     return 2 * math.pi * radius * height
+# diameter = float(input("What is the diameter of the circle in feet:"))
+# height = round(float(input("Wht is the height of building in feet: ")),2)
+# radius = diameter / 2
+# print(f"Radius: {radius:.2f}")
+# print(f"Height: {height:.2f}")
+# print(f"Area of round building is : {area_round_building(radius,height):.2f} cubic feet")
 
 # import math
 # def area_rectangle(l, w):
@@ -70,5 +70,3 @@ print(f"Area of round building is : {area_round_building(radius,height):.2f} cub
 # gallons = float(input("Enter the gallons used: "))
 # print("Miles per gallon is %.2f" % miles_per_gallon(miles, gallons))
 
-# import math
-# def volume_circle
